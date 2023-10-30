@@ -1,0 +1,21 @@
+li a{
+    color:rgb(230, 230, 235)
+}
+body{color: antiquewhite;
+    padding-left:20%;
+    padding-top: 20%;
+    padding-right: 20%;
+    background: #2c2b64;
+}
+.land_page{
+    height: 500px;
+    width: 500px;
+    padding: 20px 20px 20px 20x;
+    background: #8b3636;
+    display:flex;
+    align-items: center;
+
+}
+.results{
+    color: rgb(50, 224, 15);
+}

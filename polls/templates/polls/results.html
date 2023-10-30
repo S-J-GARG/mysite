@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'polls/style.css'%}">
+
     <title>Document</title>
 </head>
 <body>
@@ -14,6 +17,6 @@
 {% endfor %}
 </ul>
 
-<a href="{% url 'polls:details' question.id %}">Vote again?</a>
+<a class="results" href="{% url 'polls:details' question.id %}">Vote again?</a>
 </body>
 </html>
