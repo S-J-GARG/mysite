@@ -1,0 +1,15 @@
+I########## Introducing automated testing ###### 
+
+Tests will save you time.
+Tests don’t just identify problems, they prevent them.
+Tests make your code more attractive¶.:
+    “Code without tests is broken by design.”
+
+****************************************************
+Basic testing strategies ######################
+    Some programmers follow a discipline called “test-driven development”; they actually write their tests before they write their code.
+****************************************************
+Writing our first test¶##############
+    Identify a bug
+    Computer is always right!!
+    
